@@ -6,53 +6,53 @@ body:
   - type: markdown
     attributes:
       value: |
-        🚨 请务必完整填写下面的内容，如果缺少必要的信息，开发者可能会在未调查的情况下直接关闭问题  🚨
+        "🚨 请务必完整填写下面的内容，如果缺少必要的信息，开发者可能会在未调查的情况下直接关闭问题  🚨"
   - type: textarea
     validations:
       required: true
     attributes:
-      label: Bug 描述
-      description: 请简短的描述你遇到的问题。
+      label: "Bug 描述"
+      description: "请简短的描述你遇到的问题"
   - type: checkboxes
     validations:
       required: false
     attributes:
-      label: 应用为最新版？
-      description: 如果你的应用不是最新版，请在 [Release](https://github.com/Richasy/Bili.Uwp/releases) 中下载最新版
+      label: "应用为最新版？"
+      description: "如果你的应用不是最新版，请在 [Release](https://github.com/Richasy/Bili.Uwp/releases) 中下载最新版"
   - type: textarea
     validations:
       required: true
     attributes:
-      label: 复现步骤
-      description: 请在下面写上实际的复现步骤。
+      label: "复现步骤"
+      description: "请在下面写上实际的复现步骤。"
       placeholder: |
-        1. 打开应用
-        2. 进入 '...'
-        3. 点击 '....'
-        4. 滚动至 '....'
-        5. 发现问题
+        "1. 打开应用"
+        "2. 进入 '...'"
+        "3. 点击 '....'"
+        "4. 滚动至 '....'"
+        "5. 发现问题""
   - type: textarea
     attributes:
-      label: 预期的行为
-      description: 简要描述你希望看到什么样的结果
+      label: "预期的行为"
+      description: "简要描述你希望看到什么样的结果"
   - type: textarea
     attributes:
-      label: 截图
-      description: 如果可以，提交截图更有助于我们分析问题
+      label: "截图"
+      description: "如果可以，提交截图更有助于我们分析问题"
   - type: dropdown
     attributes:
-      label: 应用来源
+      label: "应用来源"
       options:
-        - "Microsoft Store"
-        - "Github"
-        - "其它来源"
+        - label: "Microsoft Store"
+        - label: "Github"
+        - label: "其它来源"
   - type: textarea
     attributes:
-      label: 如果是其它来源，请写明
+      label: "如果是其它来源，请写明"
   - type: dropdown
     attributes:
-      label: 系统版本
-      description: 请选择您当前运行应用的系统版本.
+      label: "系统版本"
+      description: "请选择您当前运行应用的系统版本."
       options:
         - label: "Windows 11"
         - label: "Windows 11 内测版本"
@@ -60,23 +60,23 @@ body:
         - label: "Windows 10 内测版本"
   - type: dropdown
     attributes:
-      label: 运行设备
-      description: 你是在哪种设备上运行应用的？
+      label: "运行设备"
+      description: "你是在哪种设备上运行应用的？"
       multiple: true
       options:
-        - "Desktop"
-        - "Xbox"
-        - "Surface Hub"
-        - "IoT"
+        - label: "Desktop"
+        - label: "Xbox"
+        - label: "Surface Hub"
+        - label: "IoT"
   - type: markdown
     value: |
-      应用会记录一些网络请求错误和运行时错误的日志，  
+      "应用会记录一些网络请求错误和运行时错误的日志，  
       请在应用设置中打开 `日志记录` 面板，打开日志文件夹，选取问题发生当日的日志记录作为 Issue 的附件上传。  
-      上传就是将日志文件拖拽到当前的输入框内即可
+      上传就是将日志文件拖拽到当前的输入框内即可"
   - type: textarea
     attributes:
-      label: 日志 & 备注
-      description: 请将 Bug 发生时的日志记录或你认为有帮助的额外信息写在这里
+      label: "日志 & 备注"
+      description: "请将 Bug 发生时的日志记录或你认为有帮助的额外信息写在这里"
       placeholder: |
-        应用会记录一些网络请求错误和运行时错误的日志，  
-        请在应用设置中打开 `日志记录` 面板，打开日志文件夹，选取问题发生当日时间戳附近的日志记录粘贴到这里。  
+        "应用会记录一些网络请求错误和运行时错误的日志，  
+        请在应用设置中打开 `日志记录` 面板，打开日志文件夹，选取问题发生当日时间戳附近的日志记录粘贴到这里。"  
